@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+body {
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 5rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    background-color: #dce3ea;
+}
+
+div#navbarNav {
+    font-size: 17px;
+    margin-left: 765px;
+}
+
+a.nav-link {
+    margin-left: 20px;
+}
+
+a.navbar-brand.fhoto {
+    margin-left: 70px;
+    padding-bottom: 13px;
+    width: 100px;
+}
+
+img {
+    float: right;
+    margin-right: 110px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+h1.developer {
+    margin-top: 180px;
+    font-family: 'Rancho', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+p.text-secondary {
+    margin-left: 40px;
+}
+
+.container-fluid.icons {
+    margin-left: 40px;
+}
+
+::before {
+    margin-right: 25px;
+    color: black;
+}
+
+h1.services {
+    margin-top: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+p.services.bott {
+    text-align: center;
+}
+
+.card {
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.card img {
+    height: 370px;
+    width: 100%;
+    float: center;
+}
+
+.card img:hover {
+    height: 377px;
+}
+
+.card h6 {
+    text-align: center;
+}
+
+h6.text-center {
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    background-color: #dce3ea;
+    border-radius: 25px;
+}
+
+.portfolio {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h1.portfolio.text-center {
+    color: black;
+}
+
+.card.cary {
+    height: 470px;
+}
+
+.card.card2 {
+    height: 460px;
+    padding: 0;
+}
+
+.card.card2 {
+    margin-bottom: 70px;
+}
+
+.card2 img {
+    height: 415px;
+    width: 240px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.card.card3 {
+    height: 460px;
+    padding: 5px;
+}
+
+.card3 img {
+    height: 395px;
+    width: 200px;
+    margin-left: 70px;
+}
+
+.card3 img:hover {
+    height: 405px;
+    width: 210px;
+}
+
+.card2 img:hover {
+    height: 425px;
+    width: 250px;
+}
+
+/* footer */
+h6 a {
+    text-decoration: none;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display-1 hr {
+    color: white;
+}
+
+h1.text-center {
+    margin-top: 50px;
+    color: white;
+}
+
+.icons a {
+    color: white;
+}
+
+.text-center.icons {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+::before {
+    margin-right: 28px;
+}
+
+.text-center.icons ::before {
+    color: white;
+}
+
+h5.bold {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: dodgerblue;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+h5.bold a {
+    text-decoration: none;
+}
+
+/* media querry */
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+
+
+    }
+
+    .navbar-brand.fhoto img#logo {
+        margin-left: 60;
+        padding-left: 60;
+        margin-right: 45px;
+        height: 50px;
+         width: 125px; 
+    }
+
+    #photo img {
+        height: 420px;
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    h1.developer {
+        font-family: 'Rancho', cursive;
+        font-size: 55px;
+        font-weight: bold;
+        margin-left: 35px;
+        margin-bottom: 0;
+    }
+
+    p.text-secondary {
+        margin-left: 40px;
+        font-size: 15px;
+        padding-right: 5px;
+    }
+
+    .container-fluid.icons {
+        margin-left: 40px;
+        height: 15px;
+    }
+
+    h1.services {
+        margin-top: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        height: 400px;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .card:hover {
+        background-color: #dce3ea;
+        border-radius: 20px;
+    }
+
+    .card img {
+        height: 330px;
+        width: 100%;
+        float: center;
+    }
+
+    .card img:hover {
+        height: 338px;
+    }
+
+    h1.portfolio.text-center.aos-init.aos-animate {
+        font-size: 40px;
+    }
+
+    .card.card2 {
+        height: 460px;
+        padding: 0;
+    }
+
+    .card.card2 {
+        margin-bottom: 50px;
+        margin-top: 5px;
+    }
+
+    .card2 img {
+        height: 415px;
+        width: 240px;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+
+    .card2 img:hover {
+        height: 425px;
+        width: 250px;
+    }
+
+    .card.card3 {
+        height: 460px;
+        padding: 5px;
+    }
+
+    .card3 img {
+        height: 395px;
+        width: 200px;
+        margin-left: 70px;
+    }
+
+    .card3 img:hover {
+        height: 405px;
+        width: 210px;
+    }
+
+    h6 a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    h1.text-center {
+        margin-top: 20px;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .text-center.icons {
+        margin-left: 20px;
+    }
+
+    ::before {
+        margin-right: 20px;
+    }
+
+    h5.bold {
+        font-size: 19px;
+    }
+    h6.text-weight-bold {
+        text-align: center;
+    }
+    .top {
+        position: fixed;
+        bottom: 1rem;
+        right: 10px;
+        z-index: 100;
+        display: none;
+      }
+      
+    
+    }
+
+
+
+
+    /* offcanvas */
+    .offcanvas-body {
+        background-color: #dce3ea;
+    }
+
+    .offcanvas-header {
+        background-color: #dce3ea;
+    }
+
+    img#logo {
+        width: 150px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    a.nav-link.active {
+        padding-top: 3px;
+    }
+
+    .container-fluid.awesome {
+        padding-top: 15px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .container-fluid.awesome ::before {
+        margin-right: 15px;
+    }
+
+    .offcanvas-body a {
+        margin-left: 4px;
+    }
+  
+
+
+@media (min-width: 600px) and (max-width: 992px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    img#logo {
+        margin-top: 0;
+    }
+
+    .offcanvas-body {
+        background-color: #dce3ea;
+    }
+
+    .offcanvas-header {
+        background-color: #dce3ea;
+    }
+
+    .container-fluid.awesome {
+        padding-top: 15px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .container-fluid.awesome ::before {
+        margin-right: 15px;
+    }
+
+    .offcanvas-body a {
+        margin-left: 4px;
+    }
+
+    #photo img {
+        height: 428px;
+        margin: 0;
+        padding: 0;
+        width: 354px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-top: 7px;
+    }
+
+    h1.developer {
+        font-family: 'Rancho', cursive;
+        font-size: 90px;
+        font-weight: bold;
+        margin-left: 35px;
+        margin-bottom: 0;
+        margin-top: 120px;
+        margin-right: 370px;
+    }
+
+    p.text-secondary {
+        margin-left: 40px;
+        font-size: 15px;
+        margin-right: 377px;
+        font-size: 20px;
+    }
+
+    h1.services {
+        margin-top: 85px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 65px;
+        margin-bottom: 20px;
+    }
+
+    p.services.bott.offer.aos-init.aos-animate {
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .portfolio {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h6.text-center.aos-init.aos-animate {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .card.card2.aos-init.aos-animate {
+        width: 336px;
+    }
+
+    .text-center.icons {
+        font-size: large;
+    }
+
+    h5.bold {
+        font-size: 24px;
+    }
+
+}
