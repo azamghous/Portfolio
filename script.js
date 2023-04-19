@@ -26,3 +26,4 @@ function square() {
     }, 5000)
 }
 setInterval(square, 50);
+// end buubles
