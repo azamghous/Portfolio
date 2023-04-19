@@ -1,3 +1,4 @@
+// bubbles
 let color = ['red', 'green', 'brown', 'blue']
 function square() {
     let section = document.querySelector('.banner');
